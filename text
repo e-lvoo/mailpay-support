@@ -1,0 +1,16 @@
+User Authentication:
+
+    POST /api/auth/register: Register a new user.
+    POST /api/auth/login: Log in a user.
+    GET /api/auth/profile: Get the authenticated user's profile (requires Bearer token).
+
+Recipes:
+
+    POST /api/recipes: Add a new recipe (authenticated, with image).
+    GET /api/recipes: Get all recipes.
+    GET /api/recipes/:id: Get recipe details by ID.
+
+Ingredients:
+
+    POST /api/ingredients: Add a new ingredient (authenticated, with image).
+    GET /api/ingredients: Get all ingredient
