@@ -29,6 +29,13 @@
           >
             FAQ
           </RouterLink>
+          <RouterLink 
+            to="/legend-mail" 
+            class="block relative text-gray-700 text-[16px] transition duration-300"
+            active-class="active"
+          >
+            Mail
+          </RouterLink>
         </nav>
       </div>
 
